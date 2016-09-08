@@ -103,7 +103,7 @@
 - (IBAction)pauseDownload:(id)sender
 {
 //    悬挂会话任务
-    [_task suspend];
+    [_task cancel];
     
     _task = nil;
 }
